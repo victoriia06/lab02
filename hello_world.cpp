@@ -1,16 +1,17 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 int main()
 {
-    string name;
+    // Variable for storing user name
+    std::string name;
 
-    cout << "Enter your name: ";
-    cin >> name;
+    // Ask user to enter name
+    std::cout << "Enter your name: ";
+    std::cin >> name;
 
-    cout << "Hello world from " << name << endl;
+    // Print greeting message
+    std::cout << "Hello world from " << name << std::endl;
 
     return 0;
 }
