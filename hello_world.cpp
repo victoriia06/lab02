@@ -3,14 +3,14 @@
 
 int main()
 {
-    // Variable for storing user name
+    // User name variable.
     std::string name;
 
-    // Ask user to enter name
+    // Request user name.
     std::cout << "Enter your name: ";
     std::cin >> name;
 
-    // Print greeting message
+    // Print greeting message.
     std::cout << "Hello world from " << name << std::endl;
 
     return 0;
